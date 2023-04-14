@@ -11,8 +11,8 @@
         <nuxt-link to="">Support</nuxt-link>
         </ul>
         <div class="auth-buttons">
-            <button>Sign in</button>
-            <button>Sign up</button>
+            <crypto-btn title="Sign in" btnStyle="ghost"/>
+            <crypto-btn title="Sign up"/>
         </div>
     </div>
 </template>
@@ -40,22 +40,10 @@
         }
         .auth-buttons{
             button{
-                &:first-of-type{
-                    border: 1px solid #FFFFFF;
-                    margin-right: 12px;
-                    background: transparent;
-                }
-                color: white;
                 padding: 12px 21px;
-                border-radius: 10px;
-                height: 40px;
-                font-style: normal;
-                font-weight: 600;
-                font-size: 16px;
-                line-height: 100%;
-                text-align: center;
-                border: none;
-                background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+                &:first-of-type{
+                    margin-right: 12px;  
+                }
             }
         }
     }

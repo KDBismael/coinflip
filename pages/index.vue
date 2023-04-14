@@ -2,6 +2,7 @@
     <div>
         <HeroSection/>
         <FeatureSection/>
+        <CryptoInvest/>
     </div>
 </template>
 <script lang="ts" setup>

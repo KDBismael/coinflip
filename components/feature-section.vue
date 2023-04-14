@@ -1,8 +1,8 @@
 <template>
     <div class="container feature">
         <div class="stars">
-            <img src="@/images/star-img-1.png" alt="">
-            <img src="@/images/star-img.png" alt="">
+            <img src="@/images/star-img-1.png" alt="star">
+            <img src="@/images/star-img.png" alt="star">
         </div>
         <FeatureCard v-for="feature in featureData" :key="feature.id" :feature="feature"/>
     </div>

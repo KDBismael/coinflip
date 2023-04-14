@@ -10,7 +10,7 @@
                     Buy, sell, and grow your crypto with CoinFlip, the platform dedicated to every trader at every level.
                 </p>
             </div>
-            <button class="g-start">Get Started</button>
+            <CryptoBtn/>
         </div>
     </div>
 </template>
@@ -47,14 +47,7 @@
             }
         }
         button{
-            font-weight: 600;
-            font-size: 16px;
-            line-height: 100%;
-            color: white;
-            background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
-            border-radius: 10px;
             padding: 20px 32px;
-            width: max-content;
             margin: 0 auto;
         }
     }
