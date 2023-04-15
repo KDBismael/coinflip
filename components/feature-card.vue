@@ -3,7 +3,7 @@
         <img :src="feature.image" :alt="feature.title">
         <h1>{{feature.title}}</h1>
         <p>{{feature.description}}</p>
-        <nuxt-link :to=" feature.btn.link">{{feature.btn.title}}➜</nuxt-link>
+        <nuxt-link :to=" feature.btn.link">{{feature.btn.title}}  ➜</nuxt-link>
     </div>
 </template>
 

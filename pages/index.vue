@@ -4,6 +4,7 @@
         <FeatureSection/>
         <CryptoInvest/>
         <Advantage :advantage="coinFlipAdvantages[0]"/>
+        <CurrencySection/>
         <Advantage :advantage="coinFlipAdvantages[1]" type='wallet'/>
     </div>
 </template>
